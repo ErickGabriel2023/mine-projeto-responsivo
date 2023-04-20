@@ -1,0 +1,25 @@
+@media (max-width: 522px) {
+    .cabecalho {
+        text-align: center;
+        height: 100px;
+    }
+
+    .cabecalho .menu-navegacao {
+        float: none;
+    
+    }
+
+    main {
+        max-height: 482px;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        max-height: 700px;
+    }
+
+    .cabecalho {
+        height: 150px;
+    }
+}

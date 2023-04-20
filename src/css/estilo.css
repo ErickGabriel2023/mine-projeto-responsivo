@@ -1,0 +1,89 @@
+body {
+    background-image: url(./imagem/45288.png);
+    background-color: darkgray;
+    font-family: 'Poppins';
+}
+
+.cabecalho {
+    background-color: rgba(0, 145, 255, 0.392);
+    padding: 12px;
+}
+
+.cabecalho .logo {
+    display: inline-block;
+}
+
+.cabecalho .logo img {
+    width: 55px;
+}
+
+.cabecalho .menu-navegacao {
+    float: right;
+}
+
+.cabecalho .menu-navegacao li {
+    display: inline-block;
+    padding: 8px;
+    background-color: rgba(5, 89, 110, 0.861);
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.cabecalho .menu-navegacao li a {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.menu-navegacao li:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    background-color: darkcyan;
+}
+
+main {
+    background-color: aliceblue;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 900px;
+    min-width: 200px;
+    max-height: 515px;
+}
+
+main .conteudo {
+    font-size: 18px;
+}
+
+main p {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.imagem img {
+    width: 100%;
+}
+
+.container-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-menu .menu-icone li {
+    display: inline-block;
+}
+
+.container-menu .icone {
+    width: 25px;
+    margin-right: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid transparent;
+    border-radius: 50%;
+    
+}
+
+.container-menu .icone:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    filter: invert(1);
+}
